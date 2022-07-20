@@ -3,12 +3,12 @@ This is a **NodeJs** project for access a google sheet and categorizing the webs
 
 ## Made with NodeJs, express and EJS
 
-## [Website Categorizer](https://website-categorizer.herokuapp.com/)
+## Link: [Website Categorizer](https://website-categorizer.herokuapp.com/)
 
 ## How to use the website
 First step is to share the google sheet **editor** access to: <br />
 ```website-classifer@website-classifier-356808.iam.gserviceaccount.com``` <br />
-Make sure that the access provided is the ```editor``` access, otherwise the website cannot access your google sheet.
+Make sure that the access provided is the ```editor``` access, otherwise the website cannot update your google sheet.
 
 Make sure that your google sheet is in the following format: 
 ![This is an image](/assets/excel.jpeg)
