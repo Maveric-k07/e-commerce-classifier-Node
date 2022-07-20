@@ -63,7 +63,7 @@ const getCategory = async(URL) => {
         url: 'https://klazify-iab-categorization.p.rapidapi.com/3rdparty/categorize',
         headers: {
             'content-type': 'application/json',
-            'X-RapidAPI-Key': '21c13db4e8msha9b486c7272b1c8p110034jsn034f1d521021',
+            'X-RapidAPI-Key': '6e0dfd692dmshf01b4eb1a80062cp125399jsn5b1c598bdcf2',
             'X-RapidAPI-Host': 'klazify-iab-categorization.p.rapidapi.com'
         },
         data: data
