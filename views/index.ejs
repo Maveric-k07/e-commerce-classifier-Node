@@ -4,16 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WebSite Classifier</title>
+    <title>WebSite Categorizer</title>
   </head>
   <body>
-    <h1>Demo test</h1>
+    <h1 >Website Categorizer:</h1>
     <form action="" method="POST">
-      <div>
-        <label for="sheetlink">Enter the sheet url</label>
-        <textarea name="sheetlink" id="sheetlink"></textarea>
+      <div class="container">
+        <h3 for="sheetlink">Enter the google sheet url:</h4>
+        <input style="width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          box-sizing: border-box;" 
+          name="sheetlink" 
+          id="sheetlink">
+        </input>
       </div>
       <button type="submit">Submit</button>
     </form>
+
+    <div>
+      <p>Make sure to share the google sheet with <b>website-classifer@website-classifier-356808.iam.gserviceaccount.com</b> as an <b>editor</b> </p>
+    </div>
+    <footer>Made with NodeJs, Express.js by <a style="text-decoration:none;" href="https://akhileshwargurram.netlify.app/" target="_blank">Akhileshwar Gurram</a> </footer>
   </body>
 </html>
