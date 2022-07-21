@@ -10,12 +10,13 @@ First step is to share the google sheet **editor** access to: <br />
 ```website-classifer@website-classifier-356808.iam.gserviceaccount.com``` <br />
 Make sure that the access provided is the ```editor``` access, otherwise the website cannot update your google sheet.
 
-Make sure that your google sheet is in the following format: 
+Make sure that your google sheet/ the demo google sheet link is in the following format: 
 ![This is an image](/assets/excel.jpeg)
 
 On the website: <br /> 
 Enter your google sheet link in the input box and hit submit. Wait for a few seconds for the sheet to be updated. You should see a success message when the 
-sheet is updated. Go back to your google sheet to see the output.
+sheet is updated. Go back to your google sheet to see the output. <br />
+Don't forget to delete the newly added column if you are using the demo sheet link, so that other users can use it too!
 
 ## Working 
 1. Get your own Google credentials file from the [Google dev console](https://console.cloud.google.com/) and create your API key for ```Google sheets```. <br />
